@@ -57,3 +57,7 @@ button:hover {
 .descarga:hover {
     background-color: rgb(4, 139, 4);
 }
+
+body.swal2-height-auto {
+     overflow: hidden !important; 
+}
