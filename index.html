@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generador de Códigos QR</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Códigos QR</h1>
+        <div class="qr-container">
+            <div id="input-container">
+                <input type="text" class="qr-input" placeholder="Enlace o texto">
+            </div>
+            <button id="generate">Generar Código QR</button>
+            <canvas id="qrcode"></canvas>
+            <button id="download" class="descarga" style="display: none;">Descargar QR</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
